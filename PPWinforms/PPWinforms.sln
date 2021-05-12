@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd", "BackEnd\BackEnd.csproj", "{C8EEDBB5-99F7-4CAD-9037-9385F82CD9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuFormPP", "MenuFormPP\MenuFormPP.csproj", "{B519732D-5EA7-4E13-8765-856E452E3324}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "MenuFormPP\UI.csproj", "{B519732D-5EA7-4E13-8765-856E452E3324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
