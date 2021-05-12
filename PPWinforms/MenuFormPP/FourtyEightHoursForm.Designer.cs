@@ -1,7 +1,7 @@
 ﻿
 namespace UI
 {
-    partial class lstView48h
+    partial class FourtyEightHoursForm
     {
         /// <summary>
         /// Required designer variable.
@@ -99,7 +99,7 @@ namespace UI
             this.Controls.Add(this.listView1);
             this.Name = "lstView48h";
             this.Text = "Vehicles parked 48 hours";
-            this.Load += new System.EventHandler(this.FortyEightHours_Load);
+            this.Load += new System.EventHandler(this.FourtyEightHours_Load);
             this.ResumeLayout(false);
 
         }

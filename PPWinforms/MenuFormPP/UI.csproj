@@ -61,11 +61,11 @@
     <Compile Include="EconomyForm.Designer.cs">
       <DependentUpon>EconomyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourtyEightHours.cs">
+    <Compile Include="FourtyEightHoursForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourtyEightHours.Designer.cs">
-      <DependentUpon>FourtyEightHours.cs</DependentUpon>
+    <Compile Include="FourtyEightHoursForm.Designer.cs">
+      <DependentUpon>FourtyEightHoursForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ParkinglotOverviewForm.cs">
       <SubType>Form</SubType>
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="EconomyForm.resx">
       <DependentUpon>EconomyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourtyEightHours.resx">
-      <DependentUpon>FourtyEightHours.cs</DependentUpon>
+    <EmbeddedResource Include="FourtyEightHoursForm.resx">
+      <DependentUpon>FourtyEightHoursForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ParkinglotOverviewForm.resx">
       <DependentUpon>ParkinglotOverviewForm.cs</DependentUpon>

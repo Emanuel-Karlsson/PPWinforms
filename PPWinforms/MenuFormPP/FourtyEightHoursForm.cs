@@ -6,14 +6,14 @@ using System.Collections;
 
 namespace UI
 {
-    public partial class lstView48h : Form
+    public partial class FourtyEightHoursForm : Form
     {
-        public lstView48h()
+        public FourtyEightHoursForm()
         {
             InitializeComponent();
         }
 
-        private void FortyEightHours_Load(object sender, EventArgs e)
+        private void FourtyEightHours_Load(object sender, EventArgs e)
         {            
             var list = HelperClass.BackEndIO.Vehicle48h().OrderBy(v => v.ParkingSpotNum);
             string vehicleType;
