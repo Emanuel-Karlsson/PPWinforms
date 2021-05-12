@@ -37,6 +37,7 @@ namespace UI
             this.lblIncomeResult = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.btnPreviousStep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // radSpecificDay
@@ -113,11 +114,23 @@ namespace UI
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 12;
             // 
+            // btnPreviousStep
+            // 
+            this.btnPreviousStep.Location = new System.Drawing.Point(25, 321);
+            this.btnPreviousStep.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPreviousStep.Name = "btnPreviousStep";
+            this.btnPreviousStep.Size = new System.Drawing.Size(82, 27);
+            this.btnPreviousStep.TabIndex = 13;
+            this.btnPreviousStep.Text = "Prevous step";
+            this.btnPreviousStep.UseVisualStyleBackColor = true;
+            this.btnPreviousStep.Click += new System.EventHandler(this.btnPreviousStep_Click);
+            // 
             // EconomyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 370);
+            this.Controls.Add(this.btnPreviousStep);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblIncomeResult);
@@ -144,5 +157,6 @@ namespace UI
         private System.Windows.Forms.Label lblIncomeResult;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Button btnPreviousStep;
     }
 }

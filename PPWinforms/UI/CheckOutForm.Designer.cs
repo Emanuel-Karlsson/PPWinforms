@@ -36,6 +36,7 @@ namespace UI
             this.txtLicensePlate = new System.Windows.Forms.TextBox();
             this.lblRegNum = new System.Windows.Forms.Label();
             this.radFreeOfCharge = new System.Windows.Forms.RadioButton();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // lblExample
@@ -143,5 +144,6 @@ namespace UI
         public System.Windows.Forms.TextBox txtLicensePlate;
         private System.Windows.Forms.Label lblRegNum;
         private System.Windows.Forms.RadioButton radFreeOfCharge;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
