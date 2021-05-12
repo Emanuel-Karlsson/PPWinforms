@@ -1,4 +1,4 @@
-﻿using HemtentaDesireDatabaserPragueParking;
+﻿using BackEnd;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,7 +35,8 @@ namespace MenuFormPP
                 lstAvailableParkingSpots.DataSource = ListFreeSpots(vehicle.VehicleType);
 
             }
-            catch (Exception ex)            {
+            catch (Exception)            
+            {
 
                 MessageBox.Show("Could not find vehicle.");
             }
