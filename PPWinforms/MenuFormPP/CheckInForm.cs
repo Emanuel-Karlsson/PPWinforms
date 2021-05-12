@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using BackEnd;
 
-namespace MenuFormPP
+namespace UI
 {
     public partial class CheckInForm : Form
     {

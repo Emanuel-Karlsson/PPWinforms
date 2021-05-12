@@ -1,5 +1,5 @@
 ﻿
-namespace MenuFormPP
+namespace UI
 {
     partial class lstView48h
     {

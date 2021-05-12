@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace MenuFormPP
+namespace UI
 {
     public static class HelperClass
     {

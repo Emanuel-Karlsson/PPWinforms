@@ -4,7 +4,7 @@ using System.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Collections;
 
-namespace MenuFormPP
+namespace UI
 {
     public partial class lstView48h : Form
     {

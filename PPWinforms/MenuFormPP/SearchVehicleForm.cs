@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MenuFormPP
+namespace UI
 {
     public partial class SearchVehicleForm : Form
     {

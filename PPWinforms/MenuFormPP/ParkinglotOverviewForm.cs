@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace MenuFormPP
+namespace UI
 {
     public partial class ParkinglotOverviewForm : Form
     {
