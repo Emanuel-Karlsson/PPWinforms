@@ -54,8 +54,7 @@ namespace UI
             this.listView1.Size = new System.Drawing.Size(600, 321);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.listView1_DrawSubItem);
+            this.listView1.View = System.Windows.Forms.View.Details;            
             // 
             // columnHeaderEmpty
             // 

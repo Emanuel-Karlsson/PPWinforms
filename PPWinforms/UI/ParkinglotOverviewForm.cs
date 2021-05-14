@@ -14,7 +14,7 @@ namespace UI
         public ParkinglotOverviewForm()
         {
             InitializeComponent();
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 5, 5));
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
         }
 
         private void ParkinglotOverviewForm_Load(object sender, EventArgs e)
@@ -58,11 +58,6 @@ namespace UI
         private void btnPreviousStep_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void listView1_DrawSubItem(object sender, DrawListViewSubItemEventArgs e)
-        {
-            
         }
     }
 }
