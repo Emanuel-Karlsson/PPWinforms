@@ -14,7 +14,7 @@ namespace UI
         public ParkinglotOverviewForm()
         {
             InitializeComponent();
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 5, 5));
         }
 
         private void ParkinglotOverviewForm_Load(object sender, EventArgs e)
