@@ -16,7 +16,7 @@ namespace UI
         {
 
             Regex washIt = new Regex(@"^[\p{L}\p{M}0-9\s]{1,10}$");// p{L}any kind of letter from any language.p{m} = a character intended to be combined with another character (e.g. accents, umlauts, enclosing boxes, etc.).
-            regnr = Regex.Replace(regnr, "\\s+", string.Empty).Trim();
+            regnr = Regex.Replace(regnr, "\\s+", string.Empty).Trim().ToUpper();
             
             if (!washIt.IsMatch(regnr))
             {
